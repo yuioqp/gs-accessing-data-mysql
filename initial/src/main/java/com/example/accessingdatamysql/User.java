@@ -13,7 +13,7 @@ public class User {
 
   private String name;
 
-  private String email;
+  private String age;
 
   public Integer getId() {
     return id;
@@ -31,11 +31,11 @@ public class User {
     this.name = name;
   }
 
-  public String getEmail() {
-    return email;
+  public String getAge() {
+    return age;
   }
 
-  public void setEmail(String email) {
-    this.email = email;
+  public void setAge(String age) {
+    this.age = age;
   }
 }
