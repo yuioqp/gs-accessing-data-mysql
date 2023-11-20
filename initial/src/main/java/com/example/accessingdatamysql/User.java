@@ -13,7 +13,7 @@ public class User {
 
   private String name;
 
-  private String Describe;
+  private String email;
 
   public Integer getId() {
     return id;
@@ -31,11 +31,11 @@ public class User {
     this.name = name;
   }
 
-  public String getDescribe() {
-    return Describe;
+  public String getEmail() {
+    return email;
   }
 
-  public void setDescribe(String Describe) {
-    this.Describe = Describe;
+  public void setEmail(String email) {
+    this.email = email;
   }
 }
